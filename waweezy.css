@@ -7,7 +7,7 @@
 h1 {
     text-align: center;
     font-weight: bold;
-    
+    color: green;
     font-size: 60px;
   }
 
@@ -20,11 +20,19 @@ h1 {
     width: 50%;
   }
 
+  #logo:hover{
+    border: 30px solid white;
+  }
+
   #video {
-    float: right;
+    
     margin: 100px;
-    display: inline-block;
+   
     border: 30px solid black
+  }
+
+  #video:hover {
+    border: 30px solid white
   }
 
   h2 {
@@ -98,7 +106,7 @@ h1 {
     bottom: 0;
     width: 100%;
     background-color: black;
-    color: white;
+    color: green;
     text-align: center;
     clear: both;
     }
@@ -117,8 +125,7 @@ h1 {
     bottom: 0;
     width: 100%;
     background-color: black;
-    color: white;
-    text-align: center;
+      text-align: center;
     clear: both;
     padding: 20px;
     border: 20px solid black;
@@ -129,7 +136,11 @@ h1 {
     border: 30px solid black;
     float: left;
     margin: 10px;
+
     
+  }
+  #picturebox:hover {
+    border: 30px solid white;
   }
 
   #divabout{
@@ -153,4 +164,12 @@ h1 {
     
     
     
+  }
+
+  form{
+    display: inline-block;
+  }
+
+  iframe{
+    float: right;
   }
